@@ -51,7 +51,7 @@ public class AccountsDal extends ObjectHelper implements DALInterfaces<AccountsC
 				contract.setYetkiId(rs.getInt("YetkiId"));
 			}
 			sorgu.close();
-			baglanti.close();
+			baglanti.close(); 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
